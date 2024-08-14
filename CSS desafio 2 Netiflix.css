@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px; 
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    gap: 29px; /* Ajuste o espaçamento entre as imagens */
+    margin-top: 25px; /* Espaço entre o título e as imagens */
+}
+
+.profile-container img {
+    width: 153px; /* Ajuste o tamanho das imagens */
+    height: 153px;
+    border-radius: 8px; /* Borda arredondada opcional */
+    margin: 0;
+    padding: 0;
+    
+}
+
+.profile-name {
+    color: rgb(122, 122, 122);
+    font-size: 20px;
+
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 3.5vw;
+    font-weight: unset;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center; /* Centraliza o botão horizontalmente */
+    margin-top: 20px; /* Adiciona um espaço entre as imagens e o botão */
+}
+
+.profile-button {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: grey;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2vw;
+    letter-spacing: 2px;
+    margin: 1.8em 0 1em;
+    padding: .5em 1.5em;
+    text-align: center;
+  }
+
+  .profile:hover img {
+    border: 3.5px solid white;
+  }
+
+.profile-button:hover {
+    border: 3.5px solid white;
+}
+
+  .profile-item:hover .profile-name {
+    color: white;
+  }
+
+
